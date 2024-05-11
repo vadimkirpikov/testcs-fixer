@@ -133,6 +133,7 @@ namespace bacs\external\Contest {
          * Set <entry> value
          *
          * @param \bacs\external\Contest\Id $value
+         * @param null|mixed $idx
          * @return \bacs\external\Contest\IdList
          */
         public function setentry(\bacs\external\Contest\Id $value, $idx = null) {
@@ -516,6 +517,7 @@ namespace bacs\external {
          * Set <info> value
          *
          * @param \bacs\external\Contest\InfoEntry $value
+         * @param null|mixed $idx
          * @return \bacs\external\Contest
          */
         public function setinfo(\bacs\external\Contest\InfoEntry $value, $idx = null) {
@@ -573,6 +575,7 @@ namespace bacs\external {
          * Set <problem> value
          *
          * @param \bacs\external\Problem $value
+         * @param null|mixed $idx
          * @return \bacs\external\Contest
          */
         public function setproblem(\bacs\external\Problem $value, $idx = null) {
@@ -662,6 +665,7 @@ namespace bacs\external {
          * Set <entry> value
          *
          * @param \bacs\external\Contest $value
+         * @param null|mixed $idx
          * @return \bacs\external\ContestList
          */
         public function setentry(\bacs\external\Contest $value, $idx = null) {
@@ -1354,6 +1358,7 @@ namespace bacs\external\Problem {
          * Set <version> value
          *
          * @param \bacs\external\Problem\Statement\Version $value
+         * @param null|mixed $idx
          * @return \bacs\external\Problem\Statement
          */
         public function setversion(\bacs\external\Problem\Statement\Version $value, $idx = null) {
@@ -1633,6 +1638,7 @@ namespace bacs\external {
          * Set <info> value
          *
          * @param \bacs\external\Problem\InfoEntry $value
+         * @param null|mixed $idx
          * @return \bacs\external\Problem
          */
         public function setinfo(\bacs\external\Problem\InfoEntry $value, $idx = null) {
